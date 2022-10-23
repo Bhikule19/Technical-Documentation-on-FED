@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="tech_doc.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Front-End Development Documentation</header>
+        <a href="#Front_End_Developer_Roadmap" class="navlink">Front-End Developer Roadmap</a>
+        <a href="#Create_the_structure_with_HTML" class="navlink">Create the structure with HTML</a>
+        <a href="#Style_with_CSS" class="navlink">Style with CSS</a>
+        <a href="#Make_it_interactive_with_JavaScript" class="navlink">Make it interactive with JavaScript</a>
+        <a href="#Essential_Framworks_and_Libraries" class="navlink">Essential Framworks and Libraries</a>
+        <a href="#Additional_Requirement" class="navlink">Additional Requirement</a>
+    </nav>
+
+
+    <main id="main-doc">
+        <section class="main-section" id="Front_End_Developer_Roadmap">
+            <header>Front-End Developer Roadmap</header>
+            <h3>What is a Front-End Developer</h3>
+            <h4>Front-End Developer</h4>
+            <p>A Front-End Developer is someone who creates websites and web applications.
+
+                The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works.
+                
+                You can think of Front-End as <em><b>client-side</b></em>  and Back-End as <em><b>server-side</b></em>.</p>
+                
+                The basic languages for Front-End Development are HTML, CSS, and JavaScript.
+                A front end developer is someone that works on all parts of a website or web app that users will interact with. This can be anything from the style colors, buttons, menus or user interactions as they click swipe and interact with the site. The skills of a front end developer can vary, but they will always focus on three leading technologies. 
+                <p>Html CSS and javascript for example, suppose you are a front end developer assigned the task of adding a newsletter, sign up option to the home page of a website. In this case you would use html to build the display elements such as the input area for the user to type their email address and then the button to click to send it. You can then use CSS to position, color and style these elements on the page.</p> 
+                <p>And finally, you can use javascript to process the activity when the user clicks the button. This could be something like checking the email address is valid and then sending that email address to the website for storage under newsletter members. While html and CSS skills are essential. The most critical skill is usually javascript. It is the powerhouse of front end technology. This is mainly because of its versatility and the fact that it is paired with powerful libraries and frameworks such as react by meta. These can be used to build rich user interface driven enterprise websites and web apps that are fast, secure and highly scalable.</p>
+                <p>The salary of front end developers are competitive and can vary based on experience. Generally. Front and developer roles will be available for junior intermediate and senior level professionals. As an aspiring developer, this is a great area to get started in entry into the job market. For a junior position is possible with some fundamental demonstrations of core concepts and skills and an eye catching sample portfolio.</p>  
+                
+                <h4>Main responsibilities</h4>
+                <p>The main responsibility of the Front-End Developer is the User interface. <br>
+
+                    Simply put, create things that the user sees.</p>
+        </section>
+
+        <section class="main-section" id="Create_the_structure_with_HTML">
+            <header>Create the structure with HTML</header>
+            <h3>What is HTML</h3>
+            <p>HTML stands for Hyper Text Markup Language
+
+                HTML is the standard markup language for Web pages
+                
+                HTML elements are the building blocks of HTML pages
+                
+                HTML elements are represented by <b> <> </b>tags</p>
+            <h4>HTML Elements</h4>
+            <p>An HTML element is a start tag and an end tag with content in between:
+
+                < h1 > This is a Heading </ h1 > where < h1 > is the start tag and </ h1 > is the End tag.
+            
+            <h4>HTML attributes</h4>
+            <p>HTML elements can have attributes. 
+                Attributes provide additional information about the element
+                Attributes come in name/value pairs like charset="utf-8"</p>
+
+            
+            <h5>HTML elements are the building blocks of HTML pages.</h5>
+            <ul>
+                <li>The < !DOCTYPE html > declaration defines this document to be HTML5</li>
+                <li>The < html > element is the root element of an HTML page</li>
+                <li>The lang attribute  defines the language of the document</li>
+                <li>The < meta > element contains meta information about the document</li>
+                <li>The charset attribute defines the character set used in the document</li>
+                <li>The < title > element specifies a title for the document</li>
+                <li>The < body > element contains the visible page content</li>
+                <li>The < h1 > element defines a large heading</li>
+                <li>The < p > element defines a paragraph</li>
+            </ul>
+            <h4>HTML Document Structure</h4>
+            <p>Below is a visualization of an HTML document (an HTML Page):</p>
+            <img src="https://csveda.com/wp-content/uploads/2020/02/HTML_Structure.png" alt="html structure">
+            <h4>Go through the link for full understanding of HTML</h4>
+            <a href="https://www.w3schools.com/whatis/whatis_html.asp" class="htmllink" target="_blank" rel="noopener">Click here to learn HTML in depth.</a>
+        </section>
+
+        <section class="main-section" id="Style_with_CSS">
+            <header>Style with CSS</header>
+            <p>I'd like you to think of a physical building and its structure, interior, exterior and decorations in a similar fashion. When it comes to websites and web apps you can think of html as being the frame and structure.</p>
+            <p>CSS, however, is the paint, wallpaper, fixtures, artwork and overall style or look and feel. In other words, CSS tells the web browser how to display html elements on screen. When using CSS, there are five elements you need to understand. A declaration block starts with a left curly bracket and ends with the matching right curly bracket. In between these curly brackets are the style declarations. Let's cover these elements one by one. The first element of the CSS rule is the selector. This indicates which html element or elements we want to style. For example, you can create a rule that uses the h1 selector to change the color of all heading one tags in a web page to gray.</p>
+            <code class="codes">h1 { <br>
+                color: gray; <br>
+                }
+            </code>
+            <h3>CSS Syntax</h3>
+            <p>A CSS rule consists of a <b>selector</b>  and a <b>declaration</b>  block:</p>
+            <img src="https://www.w3schools.com/whatis/img_selector.gif" alt="css_structure">
+            <p>The selector points to the HTML element to style (h1).</p>
+            <p>The declaration block (in curly braces) contains one or more declarations separated by semicolons.</p>
+            <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+            <h3>Color in CSS</h3>
+            <p>As you design websites, you'll be working a lot with colors and text. There are many different ways to display text and equally many ways to define colors.</p>
+            <h4>Color</h4>
+            <p>Colors are used in many CSS properties, for example:</p>
+            <code class="codes"> 
+                p { <br>
+                    color: blue; <br>
+                  }​ <br>
+            </code>
+            <p>From CSS Version 3, there are five main ways to reference a color.</p>
+            <ul>
+                <li>By RGB value,</li>
+                <li>By RGBA value,</li>
+                <li>By HSL value,</li>
+                <li>By hex value and</li>
+                <li>By predefined color names.</li>
+            </ul>
+            <h4>RGB value</h4>
+            <p>RGB is a color model that adds the colors red (R), green (G) and blue (B) together to create colors. This is based on how the human eye sees colors</p>
+            <p>Each value is defined as a number between <b>0</b> and <b>255</b>, representing the intensity of that color.</p>
+            <p>For example, the color red would have the RGB value of <b>255,0,0</b> since the intensity of the red color would be 100% while blue and green would be 0%.</p>
+            <p>The color black then would be <b>0,0,0</b> and the color white <b>255,255,255</b>.</p>
+            <p>When using RGB values in CSS, they can be defined using the rgb keyword:</p>
+            <code class="codes">
+                p { <br>
+                    color: rgb(255, 0, 0); <br>
+                  }​ <br>
+            </code>
+            <h4>RGBA value</h4>
+            <p>RGBA is an extension of RGB that add an alpha (A) channel. The alpha channel represents the opacity, or transparency, of the color.</p>
+            <p>Similar to RGB, this is specified in CSS using the <b>rgba</b> keyword:</p>
+            <code class="codes">
+                p { <br>
+                    color: rgba(255, 0, 0, 128); <br> 
+                  }​ <br>
+            </code>
+            <h4>HSL value</h4>
+            <p>HSL is a newer color model defined as Hue (H), Saturation (S) and Lightness (L). The aim of the model is to simplify mental visualization of the color that the value represents.</p>
+            <p>Think of a rainbow that has been turned into a full circle. This represents the Hue. The Hue value is the degree value on this circle, from 0 degrees to 360 degrees. 0 is red, 120 is green and 240 is blue.</p>
+            <img src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/6W-NFfelTF-vjRX3pXxfHw_71bfe705b84941a1b8f51eea05a848e1_text_color_hue.png?expiry=1661990400000&hmac=z5iJJozOlMGqX67UZcLAtOdfZ91nsf1k0Dsl5xaqvpA" alt="HSL sheet" class="hsl_sheet">
+            <p>Saturation is the distance from the center of the circle to its edge. The saturation value is represented by a percentage from 0% to 100% where 0% is the center of the circle and 100% is its edge. For example, 0% will mean that the color is more grey and 100% represents the full color.</p>
+            <p>Lightness is the third element of this color model. Think of it as turning the circle into a 3D cylinder where the bottom of the cylinder is more black and toward the top is more white. Therefore, lightness is the distance from the bottom of the cylinder to the top. Again, lightness is represented by a percentage from 0% to 100% where 0% is the bottom of the cylinder and 100% is its top. In other words, 0% will mean that the color is more black and 100% is white.</p>
+            <img src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/EoftTRz8S7uH7U0c_Fu7KQ_ba9919ab0ef54d29bb897ce29dcd03e1_text_color_hue2.png?expiry=1661990400000&hmac=3XZWER5P9ibnNks7eN_wVJzSvsuzrolDdNwciMilE2g" alt="Hue sheet" class="hue_sheet">
+            <p>In CSS, you use the <b>hsl</b> keyword to define a color with HSL.</p>
+            <code>
+                p { 
+                    color: hsl(0, 100%, 50%);
+                  }​ 
+            </code>
+            <h4>Hex value</h4>
+            <p>Colors can be specified using a hexadecimal value. If you're unfamiliar with hexadecimal, think of it as a different number set.</p>
+            <p>Decimal is what you use every day. Digits range from 0 to 9 before tens and hundreds are used.</p>
+            <p>Hexadecimal is similar, except it has 16 digits. This is counted as <b>0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F</b>.</p>
+            <p>In fact, you can convert between decimal and hexadecimal. Decimal <b>10</b> is equal to hexadecimal <b>A</b>. Hexadecimal <b>F</b> is equal to decimal <b>15</b>.</p>
+            <p>Hexadecimal can also go to tens and hundreds. For example, decimal <b>16</b> is equal to hexadecimal <b>10</b>, with <b>10</b> being the next number after <b>F</b>.</p>
+            <p>Colors specified using hexadecimal are prefixed with a <b>#</b> symbol followed by the RGB value in hexadecimal format.</p>
+            <p>For example, the color red which is RGB <b>255,0,0</b> would be written as hexadecimal <b>#FF0000</b>.</p>
+            <p>Again don't worry if you get stuck, there are plenty of converters available for this too!</p>
+            
+            <h4>Predefined color names</h4>
+            <p>Modern web browsers support 140 predefined color names. These color names are for convenience purposes and can be mapped to equivalent hex/RGB/HSL values.</p>
+            <p>Some common color names available are listed below.</p>
+            <ol>
+                <li>black</li>
+                <li>silver</li>
+                <li>gray</li>
+                <li>white</li>
+                <li>maroon</li>
+                <li>red</li>
+                <li>purple</li>
+                <li>fuchsia</li>
+                <li>green</li>
+                <li>lime</li>
+                <li>olive</li>
+                <li>yellow</li>
+                <li>navy</li>
+                <li>blue</li>
+                <li>teal</li>
+                <li>aqua</li>
+            </ol>
+
+            <h4>Go through the link for full understanding of CSS</h4>
+            <a href="https://www.w3schools.com/whatis/whatis_css.asp" class="csslink" target="_blank" rel="noopener">Click here to learn CSS in depth.</a>
+        </section>
+        <section class="main-section" id="Make_it_interactive_with_JavaScript">
+            <header>Make it interactive with JavaScript</header>
+            <h3>Introduction to JavaScript</h3>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+            <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+            <ul>
+                <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
+                <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+            </ul>
+            <h4>Why Study JavaScript?</h4>
+            <p>JavaScript is one of the 3 languages all web developers must learn:</p>
+            <ol>
+                <li><b>HTML</b> to define the content of web pages</li>
+                <li><b>CSS</b> to specify the layout of web pages</li>
+                <li><b>JavaScript</b> to program the behavior of web pages</li>
+            </ol>
+            <h4>JavaScript Tutorial</h4>
+            <p>To learn this language we recommend to go though the following link</p>
+            <a href="https://www.w3schools.com/js/js_intro.asp" class="JStutorial" target="_blank" rel="noopener">Click here to start learning the JavaScript.</a>
+            <h4>Learn by Examples</h4>
+            <p>Examples are better than 1000 words. Examples are often easier to understand than text explanations.</p>
+            <p>The following provides 1000s of examples with clarifying "Try it Yourself" examples.</p>
+            <a href="https://www.w3schools.com/js/js_examples.asp" target="_blank" rel="noopener">Click here to practice JavaScript</a>
+
+        </section>
+
+
+
+        <section class="main-section" id="Essential_Framworks_and_Libraries">
+            <header>Essential Framworks and Libraries</header>
+            <h3>What is a JavaScript library</h3>
+            <p>JavaScript is one of the most widely used programming languages in the world. It’s a scripting language used by developers to create interactive user interfaces that display dynamic content. It is s referred to as The Language of the Web Browser because it is the most commonly used language to build web applications and works well across all web browsers. </p>
+            <p>As the popularity of JavaScript increased and more people were using it to build websites and applications, the JavaScript community recognized that certain patterns in the code were being used repeatedly to accomplish the same tasks.</p>
+            <p>This re-writing of code and recognizing that certain JS functions need to be implemented multiple times led to the development of JavaScript libraries and frameworks. For instance, reoccurring animations and interactive forms that appear in different places on a website or app were repetitive tasks that could be automated by using a code snippet as needed without writing code every time.</p>            
+            <p>Generally speaking, JavaScript libraries are collections of prewritten code snippets that can be used and reused to perform common JavaScript functions. A particular JavaScript library code can be plugged into the rest of your project’s code on an as-needed basis. This led to faster development and fewer vulnerabilities to have errors.</p>
+            <h3><a href="https://jquery.com/" target="_blank" rel="noopener">JQuery</a></h3>
+            <p>There are many libraries and frameworks available to JavaScript developers today, but the concept of a JavaScript library was initiated with the creation of jQuery. jQuery is a JavaScript library designed to simplify HTML, DOM (Document Object Model) manipulation, and event handling, CSS animations, and Ajax. At the time, the jQuery library shortened the syntax and simplified the code, making it easy to understand and increased web developer productivity. </p>
+            <p>All a web developer had to do was install jQuery and use prewritten code snippets to manipulate the virtual DOM. For example, if a developer wants to add an autocomplete feature in a search bar on their site, they would insert the appropriate jQuery code snippet into the project’s code. When a user enters text into the search bar, the jQuery code snippet retrieves the feature from the jQuery library and displays it in the user’s modern browser. </p>
+
+            <h3><a href="https://reactjs.org/" target="_blank" rel="noopener">React JS</a></h3>
+            <p>In 2011, Facebook created a JavaScript library called React, which specializes in helping developers build user interfaces or UI’s. React</p>
+            <p>JS is a web component-based library and an open source JavaSscript framework that helps developers design simple views for each state of the JavaScript application. React is also extremely smart in that it does a lot of heavy lifting in terms of efficiently updating and rendering the right components when there is a change in data or the state of the JavaScript application.</p>
+            <p>Today, React is the most popular JavaScript library, and companies use it all over the world like Uber, Airbnb, Facebook, Netflix, Instagram, Amazon, Twitter, and much more.</p>
+            <p>The web component-based library allows developers to avoid the pitfalls of rewriting code and dealing with complicated debugging. With React, you can reuse and recycle different components across the web application or other products.</p>
+            <p>Components such as navigation bars, buttons, cards, forms, sections, and the like can all be reused like little building blocks that make the web application. A library like React dramatically increases the development speed with fewer bugs and makes extremely performant applications. </p>
+
+            <h3>LIBRARY VS. FRAMEWORK</h3>
+            <p>Perhaps one of the most common topics of discussion in the software community is the difference between a library and a framework. As we see above, jQuery and React are libraries with prewritten code snippets that we can use and reuse to build applications.</p>
+            <p>So while JavaScript libraries are a specialized tool for on-demand use, JavaScript frameworks are a full toolset that helps shape and organize your website or application. In other words, libraries are about using what is needed for the task, while frameworks provide you with all the tools you could need even if you don’t particularly need all of them.</p>
+            <p>Think of it like cooking some pasta. When using a JavaScript library, you simply grab the pot, pan, ingredients to make the pasta, and plates to serve. You only require only the things you need to make pasta. When thinking about a JavaScript framework, imagine an entire fully loaded kitchen. Another way to think about it can be that JavaScript libraries are like pieces of furniture that add style and function to an already constructed house. At the same time, frameworks are templates you can use to build the house itself. </p>
+            <p>Examples of an open source JavaScript framework includes Angular, and Vue JS. These are some of the most popular frameworks with large communities and support systems. Frameworks provide a structure to base your entire application around, and developers can safely work within the structure’s rules.</p>
+            <p>The advantage of frameworks is the overall efficiency and organization. The disadvantage is that a developer has less freedom to work around the rules and conventions specific to a particular JS framework. Libraries, on the other hand, give developers more freedom to use different code and snippets but do not provide the type of structure and convention that comes with a framework.</p>
+
+            <h4>Popular JavaScript and CSS frameworks:</h4>
+            <ul>
+                <li>
+                    <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/" target="_blank" rel="noopener">Bootstrap</a>
+                </li>
+                <li><a href="https://angular.io/" target="_blank" rel="noopener">Angular</a></li>
+                <li><a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a></li>
+                <li><a href="https://tailwindcss.com/" target="_blank" rel="noopener">Tailwind</a></li>
+            
+                <li><a href="https://sass-lang.com/" target="_blank" rel="noopener">Sass</a></li>
+                <li><a href="https://redux.js.org/" target="_blank" rel="noopener">Redux</a></li>
+            </ul>
+
+        </section>
+        <section class="main-section" id="Additional_Requirement">
+            <header>Additional Requirement</header>
+            <h3>Rest API</h3>
+            <h4>Introduction</h4>
+            <p>Representational State Transfer (REST) is an architectural style that defines a set of constraints to be used for creating web services. REST API is a way of accessing web services in a simple and flexible way without having any processing.</p>
+            <p>REST technology is generally preferred to the more robust Simple Object Access Protocol (SOAP) technology because REST uses less bandwidth, simple and flexible making it more suitable for internet usage. It’s used to fetch or give some information from a web service. All communication done via REST API uses only HTTP request. </p>
+            <h4>Working</h4>
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/qqqqqqq-1-1024x219.jpeg" alt="API structure">
+            <p>A request is sent from client to server in the form of a web URL as HTTP GET or POST or PUT or DELETE request. After that, a response comes back from the server in the form of a resource which can be anything like HTML, XML, Image, or JSON. But now JSON is the most popular format being used in Web Services. </p>
+            <p>In HTTP there are five methods that are commonly used in a REST-based Architecture i.e., POST, GET, PUT, PATCH, and DELETE. These correspond to create, read, update, and delete (or CRUD) operations respectively. There are other methods which are less frequently used like OPTIONS and HEAD.  </p>
+            <ul>
+                <li>
+                    <b>GET</b>: The HTTP GET method is used to read (or retrieve) a representation of a resource. In the safe path, GET returns a representation in XML or JSON and an HTTP response code of 200 (OK). In an error case, it most often returns a 404 (NOT FOUND) or 400 (BAD REQUEST). 
+                </li>
+                <li>
+                    <b>POST</b>: The POST verb is most often utilized to create new resources. In particular, it’s used to create subordinate resources. That is, subordinate to some other (e.g. parent) resource. On successful creation, return HTTP status 201, returning a Location header with a link to the newly-created resource with the 201 HTTP status. 
+                    
+                </li>
+                <li>
+                    <b>PUT</b>: It is used for updating the capabilities. However, PUT can also be used to create a resource in the case where the resource ID is chosen by the client instead of by the server. In other words, if the PUT is to a URI that contains the value of a non-existent resource ID. On successful update, return 200 (or 204 if not returning any content in the body) from a PUT. If using PUT for create, return HTTP status 201 on successful creation. PUT is not safe operation but it’s idempotent. 
+                </li>
+                <li>
+                    <b>PATCH</b>: It is used to modify capabilities. The PATCH request only needs to contain the changes to the resource, not the complete resource. This resembles PUT, but the body contains a set of instructions describing how a resource currently residing on the server should be modified to produce a new version. This means that the PATCH body should not just be a modified part of the resource, but in some kind of patch language like JSON Patch or XML Patch. PATCH is neither safe nor idempotent. 
+                </li>
+                <li>
+                    <b>DELETE</b>: An idempotent HTTP method is a HTTP method that can be called many times without different outcomes. It would not matter if the method is called only once, or ten times over. The result should be the same. Again, this only applies to the result, not the resource itself. 
+                </li>
+            </ul>
+            <p>To learn more about API,<a href="https://www.geeksforgeeks.org/rest-api-introduction/" rel="noopener" target="_blank"> click here.</a></p>
+            
+            <h3>Knowledge about how to handle APIs:</h3>
+            <ul>
+                <li>
+                    <a href="https://restfulapi.net/" rel="noopener" target="_blank">REST</a>
+                </li>
+                <li>
+                    <a href="https://graphql.org/" rel="noopener" target="_blank">GraphQL</a>
+                </li>
+            </ul>
+            <h3>Data Formats</h3>
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/whatis/whatis_json.asp" rel="noopener" target="_blank">JSON</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/whatis/whatis_xml.asp" rel="noopener" target="_blank">XML</a>
+                </li>
+            </ul>
+            <h3>Version Control</h3>
+            <a href="https://www.w3schools.com/git/" rel="noopener" target="_blank">Git</a>
+
+
+        </section>
+    </main>
+</body>
+</html>
